@@ -1,8 +1,10 @@
-function showAlert() {
-    alert('hello plugin yes')
+function pluginMethod(str) {
+    alert('hello, this is plugin code running, params:' + str)
 }
 
-window.showAlert = showAlert
+test()
+pluginMethod('ok')
+/*window.showAlert = showAlert
 window.test()
 
-console.log('testing module')
+console.log('testing module')*/
