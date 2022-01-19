@@ -3,3 +3,4 @@ function showAlert() {
 }
 
 window.showAlert = showAlert
+window.test()
